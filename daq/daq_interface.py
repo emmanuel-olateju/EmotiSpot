@@ -158,9 +158,11 @@ class EmotionApp(QWidget):
 
         # Open an inlet to the EEG stream
         inlet = StreamInlet(streams[0])
+        stream_info = inlet.info()
+        channel_count = stream_info.channel_count()
         self.is_recording = True
 
-        data = np.empty((0,16))
+        data = np.empty((0,channel_count))
 
         # Start recording EEG data
         print("Recording EEG stream...")
