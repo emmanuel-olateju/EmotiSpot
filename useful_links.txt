@@ -1,0 +1,4 @@
+1. https://www.kaggle.com/code/khan1803115/multi-class-emotion-detection/notebook#Preprocessing
+2. https://www.kaggle.com/datasets/khan1803115/eeg-dataset-for-emotion-recognition/code
+3. https://www.kaggle.com/datasets/portvc/mgeed-database
+4. https://github.com/YMPort/MGEED
